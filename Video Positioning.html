@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Positioning</title>
+    <style>
+        .hii{
+            position: fixed;
+            right: 0%;
+            left: 0%;
+            top: 0%;
+            bottom: 0%;
+        }
+
+        .text{
+            position: absolute;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: transparent;
+            font-size:400px;
+            margin-top: 19%;
+            margin-left: 33%;
+            -webkit-text-stroke-width: 4px;
+            -webkit-text-stroke-color: rgb(255, 255, 255);
+        }
+
+        .text:hover{
+            color:rgb(255, 255, 255);
+            transform: scale(1.1);
+        }
+
+        .link{
+            font-size: 200px;
+            position: absolute;
+            margin-top: 27%;
+            margin-left: 47%;
+            color: white;
+            
+            border:3px solid white;
+            border-radius: 200px ;
+            padding: 50px;
+            text-decoration: none;
+        
+       
+        }
+
+        .link:hover{
+            color: rgb(86, 218, 216);
+
+
+        }
+    </style>
+</head>
+<body>
+    <video  class="hii" src="C:\Users\hydra\Downloads\production ID_4763824.mp4" autoplay loop muted width="100%"></video>
+    <p class="text">MOUNTAINS</p>
+    <a href="C:\Users\hydra\Downloads\pexels-pixabay-417173.jpg" class="link" >Explore</a>
+</body>
+</html>
